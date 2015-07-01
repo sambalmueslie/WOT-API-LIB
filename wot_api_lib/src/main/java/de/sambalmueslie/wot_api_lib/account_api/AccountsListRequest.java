@@ -4,8 +4,20 @@ import java.util.Map;
 
 import de.sambalmueslie.wot_api_lib.common.BaseWotRequest;
 
+/**
+ * Method returns partial list of players. The list is filtered by initial characters of user name and sorted alphabetically.
+ *
+ * @see http://eu.wargaming.net/developers/api_reference/wot/account/list/
+ * @autor Sambalmueslie
+ */
 public class AccountsListRequest extends BaseWotRequest {
 
+	/**
+	 * Constructor.
+	 *
+	 * @param search
+	 *            {@link #search}
+	 */
 	public AccountsListRequest(final String search) {
 		this.search = search;
 	}
@@ -15,10 +27,18 @@ public class AccountsListRequest extends BaseWotRequest {
 		return "account/list/";
 	}
 
+	/**
+	 * @param limit
+	 *            {@link #limit}
+	 */
 	public void setLimit(final long limit) {
 		this.limit = limit;
 	}
 
+	/**
+	 * @param type
+	 *            {@link #type}
+	 */
 	public void setType(final String type) {
 		this.type = type;
 	}
