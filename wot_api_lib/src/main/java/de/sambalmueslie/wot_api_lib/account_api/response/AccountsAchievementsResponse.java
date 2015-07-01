@@ -1,4 +1,4 @@
-package de.sambalmueslie.wot_api_lib.account_api;
+package de.sambalmueslie.wot_api_lib.account_api.response;
 
 import java.util.Map;
 
