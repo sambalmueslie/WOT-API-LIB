@@ -14,6 +14,7 @@ public class ClassFile {
 		importTypes = new LinkedHashSet<>();
 		extendedTypes = new LinkedHashSet<>();
 		implementedTypes = new LinkedHashSet<>();
+		attributes = new LinkedHashSet<>();
 	}
 
 	public void add(final ConstructorDeclaration constructorDeclaration) {
@@ -25,6 +26,11 @@ public class ClassFile {
 		methodDeclarations.add(methodDeclaration);
 		methodDeclaration.getParameters().values().forEach(t -> t.getTypes().forEach(s -> addImport(s)));
 		addImport(methodDeclaration.getReturnType());
+	}
+
+	public void addAttribute(final Attribute a) {
+		attributes.add(a);
+		addImport(a.getType());
 	}
 
 	public void addExtendedType(final Class<?> type) {
@@ -81,7 +87,8 @@ public class ClassFile {
 		// write methods
 		methodDeclarations.forEach(m -> s.append(m));
 
-		// write parameter
+		// write attributes
+		attributes.forEach(a -> s.append(a));
 
 		s.append("}\n");
 		s.append("\n");
@@ -93,6 +100,7 @@ public class ClassFile {
 		importTypes.add(type);
 	}
 
+	private final Set<Attribute> attributes;
 	private final String className;
 	private final Set<ConstructorDeclaration> constructorDeclarations;
 	private final Set<Class<?>> extendedTypes;

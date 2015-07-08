@@ -12,7 +12,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "account/tanks/")
+@WotApiRequestDefinition(method = "account/achievements/")
 public class AccountAchievementsRequestDefinition extends WotRequestDefinition {
 
 	/** Player account ID. */

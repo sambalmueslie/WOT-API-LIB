@@ -21,7 +21,7 @@ public class AccountTanksRequestDefinition extends WotRequestDefinition {
 	private long account_id;
 
 	/** Player's vehicle ID. */
-	@WotApiFieldDefinition(required = true, list = true)
+	@WotApiFieldDefinition(list = true)
 	private long tank_id;
 
 }
