@@ -22,18 +22,17 @@ public class MethodDeclaration {
 	public String toString() {
 		final StringBuffer s = new StringBuffer();
 		if (override) {
-			s.append("@Override\n");
+			s.append("\t@Override\n");
 		}
-		s.append("public ");
+		s.append("\tpublic ");
 		s.append(returnType == null ? " void " : returnType.getSimpleName() + " ");
 		s.append(name);
 		s.append("( ");
 		parameters.values().forEach(e -> s.append(e));
 		s.append(" ) { \n");
-		s.append("\t");
-		s.append(content);
+		s.append("\t\t" + content);
 		s.append("\n");
-		s.append("}\n");
+		s.append("\t}\n");
 		s.append("\n");
 		return s.toString();
 	}

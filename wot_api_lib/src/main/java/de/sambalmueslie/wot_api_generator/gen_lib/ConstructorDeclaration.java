@@ -19,7 +19,7 @@ public class ConstructorDeclaration {
 	@Override
 	public String toString() {
 		final StringBuffer s = new StringBuffer();
-		s.append("public ");
+		s.append("\tpublic ");
 		s.append(name);
 		s.append("(");
 		final Iterator<Entry<String, Class<?>>> paramIter = parameters.entrySet().iterator();
@@ -31,8 +31,8 @@ public class ConstructorDeclaration {
 			}
 		}
 		s.append(") {\n");
-		parameters.keySet().stream().map(p -> "this." + p + " = " + p + ";\n").forEach(s::append);
-		s.append("}");
+		parameters.keySet().stream().map(p -> "\t\tthis." + p + " = " + p + ";\n").forEach(s::append);
+		s.append("\t}\n\n");
 		return s.toString();
 	}
 

@@ -7,39 +7,41 @@ import java.util.Map;
 
 public class AccountInfoRequest extends BaseWotRequest  {
 
-public AccountInfoRequest(final long account_id) {
-this.account_id = account_id;
-}@Override
-public String getMethod(  ) { 
-	return "account/info/";
-}
+	public AccountInfoRequest(final long account_id) {
+		this.account_id = account_id;
+	}
 
-@Override
-public  void getParameter( Map<String, Object> params ) { 
-	if (access_token != null ) {
-	 params.put("access_token",access_token);
-}
+	@Override
+	public String getMethod(  ) { 
+		return "account/info/";
+	}
+
+	@Override
+	public  void getParameter( Map<String, Object> params ) { 
+		if (access_token != null ) {
+			params.put("access_token",access_token);
+		}
 if (account_id > 0) {
-	 params.put("account_id",account_id);
-}
+			params.put("account_id",account_id);
+		}
 if (extra != null ) {
-	 params.put("extra",extra);
-}
+			params.put("extra",extra);
+		}
 
-}
+	}
 
-public  void setAccess_token( String access_token ) { 
-	this.access_token = access_token;
+	public  void setAccess_token( String access_token ) { 
+		this.access_token = access_token;
 
-}
+	}
 
-public  void setExtra( String extra ) { 
-	this.extra = extra;
+	public  void setExtra( String extra ) { 
+		this.extra = extra;
 
-}
+	}
 
-private java.lang.String access_token;
-private long account_id;
-private java.lang.String extra;
+	private java.lang.String access_token;
+	private long account_id;
+	private java.lang.String extra;
 }
 

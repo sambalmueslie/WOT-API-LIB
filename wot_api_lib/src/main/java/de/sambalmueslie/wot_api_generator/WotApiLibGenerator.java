@@ -20,11 +20,7 @@ import de.sambalmueslie.wot_api_definition.account_api.AccountTanksRequestDefini
 import de.sambalmueslie.wot_api_definition.common.WotApiFieldDefinition;
 import de.sambalmueslie.wot_api_definition.common.WotApiRequestDefinition;
 import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
-import de.sambalmueslie.wot_api_generator.gen_lib.Attribute;
-import de.sambalmueslie.wot_api_generator.gen_lib.ClassFile;
-import de.sambalmueslie.wot_api_generator.gen_lib.ConstructorDeclaration;
-import de.sambalmueslie.wot_api_generator.gen_lib.MethodDeclaration;
-import de.sambalmueslie.wot_api_generator.gen_lib.Parameter;
+import de.sambalmueslie.wot_api_generator.gen_lib.*;
 import de.sambalmueslie.wot_api_lib.common.BaseWotRequest;
 
 public class WotApiLibGenerator {
@@ -52,8 +48,8 @@ public class WotApiLibGenerator {
 			} else {
 				s.append("if (" + f.getName() + " != null ) {\n");
 			}
-			s.append("\t params.put(\"" + f.getName() + "\"," + f.getName() + ");\n");
-			s.append("}\n");
+			s.append("\t\t\tparams.put(\"" + f.getName() + "\"," + f.getName() + ");\n");
+			s.append("\t\t}\n");
 		}
 		return s.toString();
 	}

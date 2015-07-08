@@ -32,7 +32,7 @@ public class Attribute {
 	@Override
 	public String toString() {
 		final StringBuffer s = new StringBuffer();
-		s.append("private ");
+		s.append("\tprivate ");
 		s.append(type.getTypeName());
 		s.append(" ");
 		s.append(name);
