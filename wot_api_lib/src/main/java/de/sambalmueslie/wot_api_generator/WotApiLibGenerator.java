@@ -17,9 +17,13 @@ import de.sambalmueslie.wot_api_definition.account_api.AccountAchievementsReques
 import de.sambalmueslie.wot_api_definition.account_api.AccountInfoRequestDefinition;
 import de.sambalmueslie.wot_api_definition.account_api.AccountListRequestDefinition;
 import de.sambalmueslie.wot_api_definition.account_api.AccountTanksRequestDefinition;
+import de.sambalmueslie.wot_api_definition.clan_wars_api.*;
 import de.sambalmueslie.wot_api_definition.common.WotApiFieldDefinition;
 import de.sambalmueslie.wot_api_definition.common.WotApiRequestDefinition;
 import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
+import de.sambalmueslie.wot_api_definition.strongholds_api.StrongholdAccountStatsRequestDefinition;
+import de.sambalmueslie.wot_api_definition.strongholds_api.StrongholdBuildingRequestDefinition;
+import de.sambalmueslie.wot_api_definition.strongholds_api.StrongholdInfoRequestDefinition;
 import de.sambalmueslie.wot_api_generator.gen_lib.*;
 import de.sambalmueslie.wot_api_lib.common.BaseWotRequest;
 
@@ -30,10 +34,28 @@ public class WotApiLibGenerator {
 
 	public WotApiLibGenerator() {
 		try {
+			// account api
 			transform(AccountAchievementsRequestDefinition.class);
 			transform(AccountInfoRequestDefinition.class);
 			transform(AccountListRequestDefinition.class);
 			transform(AccountTanksRequestDefinition.class);
+			// stronghold api
+			transform(StrongholdAccountStatsRequestDefinition.class);
+			transform(StrongholdBuildingRequestDefinition.class);
+			transform(StrongholdInfoRequestDefinition.class);
+			// clan wars api
+			transform(GlobalWarAccountClanPointsHistoryRequestDefinition.class);
+			transform(GlobalWarAccountClanPointsRatingRequestDefinition.class);
+			transform(GlobalWarAccountClanPointsRequestDefinition.class);
+			transform(GlobalWarAccountClanProvincesRequestDefinition.class);
+			transform(GlobalWarAccountPointsHistoryRequestDefinition.class);
+			transform(GlobalWarAccountPointsRatingRequestDefinition.class);
+			transform(GlobalWarAccountPointsRequestDefinition.class);
+			transform(GlobalWarBattlesRequestDefinition.class);
+			transform(GlobalWarClansRequestDefinition.class);
+			transform(GlobalWarMapsRequestDefinition.class);
+			transform(GlobalWarProvincesRequestDefinition.class);
+			transform(GlobalWarTournamentsRequestDefinition.class);
 		} catch (final IOException e) {
 			e.printStackTrace();
 		}
