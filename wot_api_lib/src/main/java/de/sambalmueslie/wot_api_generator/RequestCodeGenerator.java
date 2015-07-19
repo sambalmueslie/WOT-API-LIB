@@ -106,9 +106,10 @@ public class RequestCodeGenerator {
 	 *             on error
 	 */
 	private BufferedWriter createOutputFile(final String apiName, final String requestName) throws IOException {
+		final Path dir = Paths.get("src", "main", "java", "de", "sambalmueslie", "wot_api_lib", apiName, "request");
 		final Path path = Paths.get("src", "main", "java", "de", "sambalmueslie", "wot_api_lib", apiName, "request", requestName + ".java");
 		System.out.println(path);
-		Files.createDirectories(path);
+		Files.createDirectories(dir);
 		if (!Files.exists(path)) {
 			Files.createFile(path);
 		}
@@ -132,7 +133,7 @@ public class RequestCodeGenerator {
 
 	/**
 	 * Get the {@link WotRequestDefinition}s from a type.
-	 * 
+	 *
 	 * @param type
 	 *            the type
 	 * @return the definitions.
