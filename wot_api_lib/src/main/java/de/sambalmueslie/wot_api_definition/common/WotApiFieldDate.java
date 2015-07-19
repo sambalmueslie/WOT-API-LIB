@@ -5,11 +5,13 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * Marks a field as timestamp/date.
+ *
+ * @autor Sambalmueslie
+ */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface WotApiFieldDefinition {
-	boolean list() default false;
-
-	boolean required() default false;
+public @interface WotApiFieldDate {
 
 }
