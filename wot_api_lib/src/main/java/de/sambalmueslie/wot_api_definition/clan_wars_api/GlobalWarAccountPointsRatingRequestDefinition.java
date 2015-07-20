@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "globalwar/accountpointsrating/")
+@WotApiRequestDefinition(method = "wot/globalwar/accountpointsrating/")
 public class GlobalWarAccountPointsRatingRequestDefinition extends WotRequestDefinition {
 
 	/**

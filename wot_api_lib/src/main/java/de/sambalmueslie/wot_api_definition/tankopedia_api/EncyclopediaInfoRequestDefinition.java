@@ -8,7 +8,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/info/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/info/")
 public class EncyclopediaInfoRequestDefinition extends WotRequestDefinition {
 
 }

@@ -14,7 +14,7 @@ public class PlayerRatingsAccountsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "ratings/accounts/";
+		return "wot/ratings/accounts/";
 	}
 
 	@Override

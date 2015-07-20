@@ -13,7 +13,7 @@ public class PlayerVehiclesAchievementsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "tanks/achievements/";
+		return "wot/tanks/achievements/";
 	}
 
 	@Override

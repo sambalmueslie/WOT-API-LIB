@@ -5,10 +5,10 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
 
 /**
  * Method returns details on ratings types and categories.
- * 
+ *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "clanratings/types/")
+@WotApiRequestDefinition(method = "wot/clanratings/types/")
 public class ClanratingsTypesRequestDefinition extends WotRequestDefinition {
 
 }

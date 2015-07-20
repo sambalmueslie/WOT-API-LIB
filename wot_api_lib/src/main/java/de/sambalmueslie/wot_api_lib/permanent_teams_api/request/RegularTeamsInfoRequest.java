@@ -13,7 +13,7 @@ public class RegularTeamsInfoRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "regularteams/info/";
+		return "wot/regularteams/info/";
 	}
 
 	@Override

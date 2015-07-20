@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "clanratings/dates/")
+@WotApiRequestDefinition(method = "wot/clanratings/dates/")
 public class ClanratingsDatesRequestDefinition extends WotRequestDefinition {
 
 	/** Clan ID. */

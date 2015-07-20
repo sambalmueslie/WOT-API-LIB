@@ -13,7 +13,7 @@ public class StrongholdAccountStatsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "stronghold/accountstats/";
+		return "wot/stronghold/accountstats/";
 	}
 
 	@Override

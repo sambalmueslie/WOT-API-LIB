@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/tankradios/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/tankradios/")
 public class EncyclopediaTankRadiosRequestDefinition extends WotRequestDefinition {
 	/** Module ID. */
 	@WotApiFieldDefinition(list = true)

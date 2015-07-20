@@ -11,7 +11,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "globalwar/accountpointshistory/")
+@WotApiRequestDefinition(method = "wot/globalwar/accountpointshistory/")
 public class GlobalWarAccountPointsHistoryRequestDefinition extends WotRequestDefinition {
 
 	/** Access token is used to access personal user data. The token is obtained via authentication and has expiration time. */

@@ -15,7 +15,7 @@ public class GlobalWarAccountPointsHistoryRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "globalwar/accountpointshistory/";
+		return "wot/globalwar/accountpointshistory/";
 	}
 
 	@Override

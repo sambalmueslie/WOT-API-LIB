@@ -12,7 +12,7 @@ public class EncyclopediaProvisionsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "encyclopedia/achievements/";
+		return "wot/encyclopedia/achievements/";
 	}
 
 	@Override

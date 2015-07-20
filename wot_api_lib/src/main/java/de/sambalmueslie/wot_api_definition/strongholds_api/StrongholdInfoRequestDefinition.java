@@ -8,7 +8,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "stronghold/buildings/")
+@WotApiRequestDefinition(method = "wot/stronghold/buildings/")
 public class StrongholdInfoRequestDefinition extends WotRequestDefinition {
 
 }

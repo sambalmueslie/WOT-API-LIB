@@ -12,7 +12,7 @@ public class ClansListRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "clans/list/";
+		return "wgn/clans/list/";
 	}
 
 	@Override

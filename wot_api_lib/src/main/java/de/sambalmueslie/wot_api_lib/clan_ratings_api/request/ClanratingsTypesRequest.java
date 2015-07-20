@@ -12,7 +12,7 @@ public class ClanratingsTypesRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "clanratings/types/";
+		return "wot/clanratings/types/";
 	}
 
 	@Override

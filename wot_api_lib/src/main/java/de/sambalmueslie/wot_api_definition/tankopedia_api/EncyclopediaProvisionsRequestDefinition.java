@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/achievements/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/achievements/")
 public class EncyclopediaProvisionsRequestDefinition extends WotRequestDefinition {
 	/** Equipment or consumables ID. */
 	@WotApiFieldDefinition(list = true)

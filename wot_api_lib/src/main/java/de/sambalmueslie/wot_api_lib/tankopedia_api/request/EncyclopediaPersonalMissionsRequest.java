@@ -12,7 +12,7 @@ public class EncyclopediaPersonalMissionsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "encyclopedia/personalmissions/";
+		return "wot/encyclopedia/personalmissions/";
 	}
 
 	@Override

@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "clans/membersinfo/")
+@WotApiRequestDefinition(method = "wgn/clans/membersinfo/")
 public class ClansMembersInfoRequestDefinition extends WotRequestDefinition {
 
 	/** User ID. */

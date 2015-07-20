@@ -10,7 +10,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "ratings/accounts/")
+@WotApiRequestDefinition(method = "wot/ratings/accounts/")
 public class PlayerRatingsAccountsRequestDefinition extends WotRequestDefinition {
 
 	/** Player account ID. */

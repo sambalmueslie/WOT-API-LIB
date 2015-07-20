@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/tankinfo/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/tankinfo/")
 public class EncyclopediaTankInfoRequestDefinition extends WotRequestDefinition {
 
 	/** Vehicle ID. */

@@ -13,7 +13,7 @@ public class AccountTanksRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "account/tanks/";
+		return "wot/account/tanks/";
 	}
 
 	@Override

@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/personalmissions/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/personalmissions/")
 public class EncyclopediaPersonalMissionsRequestDefinition extends WotRequestDefinition {
 	/** Campaign ID. */
 	@WotApiFieldDefinition(list = true)

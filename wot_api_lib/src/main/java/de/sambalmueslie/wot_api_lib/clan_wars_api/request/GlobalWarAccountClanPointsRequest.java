@@ -14,7 +14,7 @@ public class GlobalWarAccountClanPointsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "globalwar/clanpoints/";
+		return "wot/globalwar/clanpoints/";
 	}
 
 	@Override

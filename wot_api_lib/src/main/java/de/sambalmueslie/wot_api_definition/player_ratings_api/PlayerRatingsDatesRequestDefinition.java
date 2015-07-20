@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "ratings/dates/")
+@WotApiRequestDefinition(method = "wot/ratings/dates/")
 public class PlayerRatingsDatesRequestDefinition extends WotRequestDefinition {
 
 	/** Player account ID. */

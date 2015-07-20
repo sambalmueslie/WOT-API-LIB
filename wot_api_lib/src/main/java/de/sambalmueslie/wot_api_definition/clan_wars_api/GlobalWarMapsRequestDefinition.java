@@ -8,7 +8,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "globalwar/maps/")
+@WotApiRequestDefinition(method = "wot/globalwar/maps/")
 public class GlobalWarMapsRequestDefinition extends WotRequestDefinition {
 
 }

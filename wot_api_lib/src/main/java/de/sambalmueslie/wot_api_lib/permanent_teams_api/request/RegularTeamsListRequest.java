@@ -12,7 +12,7 @@ public class RegularTeamsListRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "regularteams/list/";
+		return "wot/regularteams/list/";
 	}
 
 	@Override

@@ -14,7 +14,7 @@ public class GlobalWarBattlesRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "globalwar/battles/";
+		return "wot/globalwar/battles/";
 	}
 
 	@Override

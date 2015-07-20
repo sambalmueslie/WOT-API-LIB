@@ -14,7 +14,7 @@ public class GlobalWarAccountPointsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "globalwar/accountpoints/";
+		return "wot/globalwar/accountpoints/";
 	}
 
 	@Override

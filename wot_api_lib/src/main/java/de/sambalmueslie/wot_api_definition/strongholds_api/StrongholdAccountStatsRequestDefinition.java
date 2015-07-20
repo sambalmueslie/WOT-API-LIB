@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "stronghold/accountstats/")
+@WotApiRequestDefinition(method = "wot/stronghold/accountstats/")
 public class StrongholdAccountStatsRequestDefinition extends WotRequestDefinition {
 
 	/** Access token is used to access personal user data. The token is obtained via authentication and has expiration time. */

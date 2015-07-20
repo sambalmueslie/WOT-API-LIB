@@ -8,7 +8,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/arenas/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/arenas/")
 public class EncyclopediaMapsRequestDefinition extends WotRequestDefinition {
 
 }

@@ -13,7 +13,7 @@ public class GlobalWarAccountPointsRatingRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "globalwar/accountpointsrating/";
+		return "wot/globalwar/accountpointsrating/";
 	}
 
 	@Override

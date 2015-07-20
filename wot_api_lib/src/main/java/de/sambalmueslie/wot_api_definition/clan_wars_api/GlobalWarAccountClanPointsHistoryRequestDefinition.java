@@ -11,7 +11,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "globalwar/clanpointshistory/")
+@WotApiRequestDefinition(method = "wot/globalwar/clanpointshistory/")
 public class GlobalWarAccountClanPointsHistoryRequestDefinition extends WotRequestDefinition {
 
 	/** Clan ID. */

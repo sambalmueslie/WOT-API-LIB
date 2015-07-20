@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "globalwar/clanpoints/")
+@WotApiRequestDefinition(method = "wot/globalwar/clanpoints/")
 public class GlobalWarAccountClanPointsRequestDefinition extends WotRequestDefinition {
 
 	/** Clan ID. */

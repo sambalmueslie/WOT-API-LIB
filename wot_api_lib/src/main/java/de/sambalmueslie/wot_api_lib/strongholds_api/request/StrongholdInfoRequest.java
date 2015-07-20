@@ -12,7 +12,7 @@ public class StrongholdInfoRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "stronghold/buildings/";
+		return "wot/stronghold/buildings/";
 	}
 
 	@Override

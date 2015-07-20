@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "regularteams/list/")
+@WotApiRequestDefinition(method = "wot/regularteams/list/")
 public class RegularTeamsListRequestDefinition extends WotRequestDefinition {
 	/** Maximum number of adjacent positions in clan rating. Maximum: 504 default value: 5. */
 	@WotApiFieldDefinition

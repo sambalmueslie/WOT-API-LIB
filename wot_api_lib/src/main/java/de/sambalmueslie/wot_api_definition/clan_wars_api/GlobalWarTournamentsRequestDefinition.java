@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "globalwar/tournaments/")
+@WotApiRequestDefinition(method = "wot/globalwar/tournaments/")
 public class GlobalWarTournamentsRequestDefinition extends WotRequestDefinition {
 
 	/** Global Map ID. */

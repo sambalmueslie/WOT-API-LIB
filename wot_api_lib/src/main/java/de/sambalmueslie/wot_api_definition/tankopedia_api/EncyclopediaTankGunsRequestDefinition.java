@@ -18,7 +18,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/tankguns/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/tankguns/")
 public class EncyclopediaTankGunsRequestDefinition extends WotRequestDefinition {
 	/** Module ID. */
 	@WotApiFieldDefinition(list = true)

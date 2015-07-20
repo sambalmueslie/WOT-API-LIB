@@ -15,7 +15,7 @@ public class ClanratingsNeighborsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "clanratings/neighbors/";
+		return "wot/clanratings/neighbors/";
 	}
 
 	@Override

@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "globalwar/provinces/")
+@WotApiRequestDefinition(method = "wot/globalwar/provinces/")
 public class GlobalWarProvincesRequestDefinition extends WotRequestDefinition {
 
 	/** Global Map ID. */

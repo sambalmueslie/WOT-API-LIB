@@ -8,7 +8,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "clans/glossary/")
+@WotApiRequestDefinition(method = "wgn/clans/glossary/")
 public class ClansGlossaryRequestDefinition extends WotRequestDefinition {
 
 }

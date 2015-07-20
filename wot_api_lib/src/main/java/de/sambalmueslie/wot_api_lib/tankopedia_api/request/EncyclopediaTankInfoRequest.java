@@ -13,7 +13,7 @@ public class EncyclopediaTankInfoRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "encyclopedia/tankinfo/";
+		return "wot/encyclopedia/tankinfo/";
 	}
 
 	@Override

@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "regularteams/info/")
+@WotApiRequestDefinition(method = "wot/regularteams/info/")
 public class RegularTeamsInfoRequestDefinition extends WotRequestDefinition {
 
 	/** Team ID. */

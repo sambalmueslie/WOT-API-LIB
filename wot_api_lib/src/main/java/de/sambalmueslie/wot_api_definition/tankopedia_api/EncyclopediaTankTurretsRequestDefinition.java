@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/tankturrets/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/tankturrets/")
 public class EncyclopediaTankTurretsRequestDefinition extends WotRequestDefinition {
 	/** Module ID. */
 	@WotApiFieldDefinition(list = true)

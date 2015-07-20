@@ -12,7 +12,7 @@ public class ClansGlossaryRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "clans/glossary/";
+		return "wgn/clans/glossary/";
 	}
 
 	@Override

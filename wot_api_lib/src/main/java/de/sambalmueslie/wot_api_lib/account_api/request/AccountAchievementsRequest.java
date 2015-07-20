@@ -13,7 +13,7 @@ public class AccountAchievementsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "account/achievements/";
+		return "wot/account/achievements/";
 	}
 
 	@Override

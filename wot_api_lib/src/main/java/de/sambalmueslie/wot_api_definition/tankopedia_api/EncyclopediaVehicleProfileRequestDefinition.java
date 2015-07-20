@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "encyclopedia/vehicleprofile/")
+@WotApiRequestDefinition(method = "wot/encyclopedia/vehicleprofile/")
 public class EncyclopediaVehicleProfileRequestDefinition extends WotRequestDefinition {
 
 	/** Engine ID. If module is not specified, standard module is used by default. */

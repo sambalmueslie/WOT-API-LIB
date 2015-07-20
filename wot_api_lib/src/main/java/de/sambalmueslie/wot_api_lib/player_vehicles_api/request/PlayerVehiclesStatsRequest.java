@@ -13,7 +13,7 @@ public class PlayerVehiclesStatsRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "tanks/stats/";
+		return "wot/tanks/stats/";
 	}
 
 	@Override

@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "account/list/")
+@WotApiRequestDefinition(method = "wot/account/list/")
 public class AccountListRequestDefinition extends WotRequestDefinition {
 	/**
 	 * Number of returned entries (fewer can be returned, but not more than 100). If the limit sent exceeds 100, an limit of None is applied

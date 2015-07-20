@@ -13,7 +13,7 @@ public class GlobalWarProvincesRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "globalwar/provinces/";
+		return "wot/globalwar/provinces/";
 	}
 
 	@Override

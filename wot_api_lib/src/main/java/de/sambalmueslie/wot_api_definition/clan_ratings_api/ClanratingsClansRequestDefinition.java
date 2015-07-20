@@ -10,7 +10,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "clanratings/clans/")
+@WotApiRequestDefinition(method = "wot/clanratings/clans/")
 public class ClanratingsClansRequestDefinition extends WotRequestDefinition {
 
 	/** Clan ID. */

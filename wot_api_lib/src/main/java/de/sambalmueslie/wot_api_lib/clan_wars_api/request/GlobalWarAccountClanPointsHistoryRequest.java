@@ -15,7 +15,7 @@ public class GlobalWarAccountClanPointsHistoryRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "globalwar/clanpointshistory/";
+		return "wot/globalwar/clanpointshistory/";
 	}
 
 	@Override

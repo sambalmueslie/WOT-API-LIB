@@ -13,7 +13,7 @@ public class PlayerRatingsDatesRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "ratings/dates/";
+		return "wot/ratings/dates/";
 	}
 
 	@Override

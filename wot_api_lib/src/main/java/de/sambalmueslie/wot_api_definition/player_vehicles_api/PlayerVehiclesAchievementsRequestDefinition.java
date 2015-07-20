@@ -12,7 +12,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "tanks/achievements/")
+@WotApiRequestDefinition(method = "wot/tanks/achievements/")
 public class PlayerVehiclesAchievementsRequestDefinition extends WotRequestDefinition {
 
 	/** Access token is used to access personal user data. The token is obtained via authentication and has expiration time. */

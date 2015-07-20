@@ -13,7 +13,7 @@ public class EncyclopediaVehicleProfileRequest extends BaseWotRequest  {
 
 	@Override
 	public String getMethod(  ) { 
-		return "encyclopedia/vehicleprofile/";
+		return "wot/encyclopedia/vehicleprofile/";
 	}
 
 	@Override

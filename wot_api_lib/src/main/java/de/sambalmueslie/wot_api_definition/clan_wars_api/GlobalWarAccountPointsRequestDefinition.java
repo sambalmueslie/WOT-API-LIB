@@ -9,7 +9,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
  *
  * @autor Sambalmueslie
  */
-@WotApiRequestDefinition(method = "globalwar/accountpoints/")
+@WotApiRequestDefinition(method = "wot/globalwar/accountpoints/")
 public class GlobalWarAccountPointsRequestDefinition extends WotRequestDefinition {
 
 	/** Province ID. */
