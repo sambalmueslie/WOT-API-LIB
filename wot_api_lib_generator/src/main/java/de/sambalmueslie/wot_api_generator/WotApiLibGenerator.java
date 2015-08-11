@@ -7,7 +7,7 @@ import de.sambalmueslie.wot_api_definition.common.WotRequestDefinition;
 
 /**
  * Generator for the wot api.
- * 
+ *
  * @autor Sambalmueslie
  */
 public class WotApiLibGenerator {

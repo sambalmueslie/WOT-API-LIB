@@ -106,8 +106,9 @@ public class RequestCodeGenerator {
 	 *             on error
 	 */
 	private BufferedWriter createOutputFile(final String apiName, final String requestName) throws IOException {
-		final Path dir = Paths.get("src", "main", "java", "de", "sambalmueslie", "wot_api_lib", apiName, "request");
-		final Path path = Paths.get("src", "main", "java", "de", "sambalmueslie", "wot_api_lib", apiName, "request", requestName + ".java");
+		final Path dir = Paths.get("..", "wot_api_lib", "src", "main", "java", "de", "sambalmueslie", "wot_api_lib", apiName, "request");
+		final Path path = Paths.get("..", "wot_api_lib", "src", "main", "java", "de", "sambalmueslie", "wot_api_lib", apiName, "request",
+				requestName + ".java");
 		System.out.println(path);
 		Files.createDirectories(dir);
 		if (!Files.exists(path)) {
