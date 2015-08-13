@@ -4,7 +4,7 @@ import java.util.Map;
 
 import de.sambalmueslie.wot_api_lib.common.BaseWotResponse;
 
-public class ClanGlossaryResponse extends BaseWotResponse {
+public class ClansGlossaryResponse extends BaseWotResponse {
 	public class ClanRoles {
 
 		/**
