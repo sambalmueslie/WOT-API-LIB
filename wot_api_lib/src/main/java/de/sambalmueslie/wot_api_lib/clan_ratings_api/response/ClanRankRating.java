@@ -1,6 +1,6 @@
 package de.sambalmueslie.wot_api_lib.clan_ratings_api.response;
 
-public class Clanrating {
+public class ClanRankRating {
 	public long getRank() {
 		return rank;
 	}
